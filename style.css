@@ -1,0 +1,26 @@
+*{
+  margin: none;
+  padding: none;
+}
+
+html, body {
+  background-color: aliceblue;
+  overflow: hidden;
+}
+
+.full-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.pixels-display {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
